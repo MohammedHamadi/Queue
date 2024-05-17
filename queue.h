@@ -2,7 +2,7 @@
 
 template <class T> class Queue {
 public:
-  Queue(); // default constructor (queue size 10)
+  Queue();
   ~Queue();
   void push(const T &);
   bool pop(T &);
